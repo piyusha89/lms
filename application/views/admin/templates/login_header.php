@@ -6,7 +6,4 @@
     <title>Party pundits Login Screen | Welcome </title>
 </head>
 <body>
-	<br /><a href="<?php echo base_url('home') ?>">Home</a>
-	<br /><a href="<?php echo base_url('logout') ?>">Logout!</a>
-	<br /><a href="<?php echo base_url('change_password') ?>">Change Password</a>
-	<br /><a href="<?php echo base_url('edit-details') ?>">Edit details</a>
+	<a href="<?php echo base_url('home') ?>">Home</a><br />

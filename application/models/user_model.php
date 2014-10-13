@@ -24,7 +24,7 @@ class User_model extends CI_Model
             );
 
             $this->db->where('id', $this->session->userdata('login_id'));
-            $this->db->update('login', $data);
+            $this->db->update('student', $data);
             return true;
 
         }

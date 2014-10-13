@@ -47,6 +47,21 @@ $route['forgot_password'] = "login/forgot_password";
 
 $route['change_password'] = "home/change_password";
 
+/*Student routing*/
+$route['edit-details'] = "student/updateDetails";
+
+/*amin routing*/
+$route['admin'] = "AdminHome";
+$route['admin_login'] = "AdminLogin";
+$route['admin_do_login'] = "AdminLogin/process";
+$route['admin_logout'] = "AdminHome/doLogout";
+$route['admin_change_password'] = "AdminHome/changePassword";
+$route['create_question'] = "AdminHome/createQuestion";
+$route['add_exam'] = "AdminHome/addExam";
+
+/*ajax call*/
+$route['get_subject/(:num)'] = "Ajax/getSubject/$1";
+
 $route['webservice'] = "web_service";
 $route['404_override'] = '';
 
